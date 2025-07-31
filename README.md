@@ -140,10 +140,10 @@ Make sure backend is running first.
 
 ---
 
----
-
 ### Future Scope
 
 - Adding animations through GSAP.
 - Adding Authentication flow in both frontend and backend.
 - Deployment on Cloud.
+
+---
