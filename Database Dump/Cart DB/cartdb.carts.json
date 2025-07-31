@@ -1,0 +1,33 @@
+[{
+  "_id": {
+    "$oid": "688916837645cdc87dc23c7f"
+  },
+  "userId": "004",
+  "items": [
+    {
+      "productId": "688b437ea41a2e16109da8b0",
+      "name": "passionfruit",
+      "price": 25,
+      "quantity": 2,
+      "_id": {
+        "$oid": "688b555da41a2e16109daa4b"
+      }
+    },
+    {
+      "productId": "688b43a5a41a2e16109da8b2",
+      "name": "orange & mandarin",
+      "price": 25,
+      "quantity": 1,
+      "_id": {
+        "$oid": "688b5c11a41a2e16109daaf4"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-07-29T18:44:19.603Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-31T12:05:37.358Z"
+  },
+  "__v": 9
+}]

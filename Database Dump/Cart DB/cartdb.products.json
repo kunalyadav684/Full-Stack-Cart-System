@@ -1,0 +1,112 @@
+[{
+  "_id": {
+    "$oid": "688b4238a41a2e16109da896"
+  },
+  "name": "cassis",
+  "price": 25,
+  "description": "0 Sugar",
+  "imageUrl": "https://cdn.prod.website-files.com/66dabe4fe2fdbb07d092f829/6745a05384ef1bcfb3f5a3bd_Charlies%20Organics%20330ml%20Can%20Black%20Currant.avif",
+  "createdAt": {
+    "$date": "2025-07-31T10:15:20.135Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-31T10:15:20.135Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "688b437ea41a2e16109da8b0"
+  },
+  "name": "passionfruit",
+  "price": 25,
+  "description": "0 Sugar",
+  "imageUrl": "https://cdn.prod.website-files.com/66dabe4fe2fdbb07d092f829/6745a009e86eb7e0cb4d45e8_Charlies%20Organics%20330ml%20Can%20Passionfruit.avif",
+  "createdAt": {
+    "$date": "2025-07-31T10:20:46.341Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-31T10:20:46.341Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "688b43a5a41a2e16109da8b2"
+  },
+  "name": "orange & mandarin",
+  "price": 25,
+  "description": "0 Sugar",
+  "imageUrl": "https://cdn.prod.website-files.com/66dabe4fe2fdbb07d092f829/66dae210037e3f34eaf3eb57_Charlies%20Organics%20330ml%20Can%20Orange%20Mandarin%20Orange%20HR.avif",
+  "createdAt": {
+    "$date": "2025-07-31T10:21:25.723Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-31T10:21:25.723Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "688b43caa41a2e16109da8b4"
+  },
+  "name": "raspberry & lime",
+  "price": 25,
+  "description": "0 Sugar",
+  "imageUrl": "https://cdn.prod.website-files.com/66dabe4fe2fdbb07d092f829/66dae1d7e2fdbb07d0b4eeca_Charlies%20Organics%20330ml%20Can%20Raspberry%20%26%20Lime.avif",
+  "createdAt": {
+    "$date": "2025-07-31T10:22:02.638Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-31T10:22:02.638Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "688b43efa41a2e16109da8b6"
+  },
+  "name": "grapefruit",
+  "price": 25,
+  "description": "0 Sugar",
+  "imageUrl": "https://cdn.prod.website-files.com/66dabe4fe2fdbb07d092f829/6745a09f7810e476037a3cc2_Charlies%20Organics%20330ml%20Can%20Grapefruit.avif",
+  "createdAt": {
+    "$date": "2025-07-31T10:22:39.531Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-31T10:22:39.531Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "688b4409a41a2e16109da8b8"
+  },
+  "name": "lemon",
+  "price": 25,
+  "description": "0 Sugar",
+  "imageUrl": "https://cdn.prod.website-files.com/66dabe4fe2fdbb07d092f829/66dad9f9da8ca070ebd27542_Charlies%20Organics%20330ml%20Can%20Lemon.avif",
+  "createdAt": {
+    "$date": "2025-07-31T10:23:05.362Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-31T10:23:05.362Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "688b787da41a2e16109daafb"
+  },
+  "name": "Cola",
+  "price": 25,
+  "description": "0 Sugar",
+  "imageUrl": "",
+  "createdAt": {
+    "$date": "2025-07-31T14:06:53.557Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-31T14:06:53.557Z"
+  },
+  "__v": 0
+}]

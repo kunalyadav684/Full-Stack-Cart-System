@@ -1,0 +1,258 @@
+{
+	"info": {
+		"_postman_id": "d7085aa3-6795-4d6d-83cc-69a4408b418d",
+		"name": "Full Stack Cart System",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31064197",
+		"_collection_link": "https://restless-space-806948.postman.co/workspace/fe730921-a505-4a74-9447-51506b29224e/collection/31064197-d7085aa3-6795-4d6d-83cc-69a4408b418d?action=share&source=collection_link&creator=31064197"
+	},
+	"item": [
+		{
+			"name": "Cart",
+			"item": [
+				{
+					"name": "Add Items to Cart By User ID",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"productId\": \"p1\",\r\n  \"name\": \"Shoes\",\r\n  \"price\": 1000,\r\n  \"quantity\": 2\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/cart/add?userId=123",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"cart",
+								"add"
+							],
+							"query": [
+								{
+									"key": "userId",
+									"value": "123"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Cart With Total Price",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/cart?userId=123",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"cart"
+							],
+							"query": [
+								{
+									"key": "userId",
+									"value": "123"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Remove Item from Cart",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/cart/remove?userId=123&productId=p1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"cart",
+								"remove"
+							],
+							"query": [
+								{
+									"key": "userId",
+									"value": "123"
+								},
+								{
+									"key": "productId",
+									"value": "p1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Cart",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/cart/update?userId=123&productId=p1&quantity=3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"cart",
+								"update"
+							],
+							"query": [
+								{
+									"key": "userId",
+									"value": "123"
+								},
+								{
+									"key": "productId",
+									"value": "p1"
+								},
+								{
+									"key": "quantity",
+									"value": "3"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Get All Products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/products/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"products",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Products By ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/products/6889d99989b81e6b62a2f664",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"products",
+						"6889d99989b81e6b62a2f664"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Products",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"T-shirt\",\r\n  \"price\": 1500,\r\n  \"description\": \"Cotton half-sleeve\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/products/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"products",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Products By ID",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"T-shirt\",\r\n  \"price\": 1500,\r\n  \"description\": \"Cotton half-sleeve\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/products/6889d99989b81e6b62a2f664",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"products",
+						"6889d99989b81e6b62a2f664"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Products By Id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/products/6889d99989b81e6b62a2f664",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"products",
+						"6889d99989b81e6b62a2f664"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
